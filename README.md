@@ -1,8 +1,8 @@
 # Legend #46
 
-I'm a bit late to the party...got carried away making graphics for illustration, ended up writing as much code to generate the graphics as I did during contest time :sweat_smile: Messed around with python turtle graphics library and got some interactive simulation for Wondev working :stuck_out_tongue:  One in which you can play as the enemy! \o/ 
+I'm a bit late to the party...got carried away making graphics for illustration, ended up writing as much code to generate the graphics as I did during contest time :sweat_smile: Messed around with python turtle graphics library and got some interactive simulation for Wondev working :stuck_out_tongue:  One in which you play as the enemy! \o/ 
 
-Still figuring out how to isolate it to read/write to other processes tho...the version I have now has my bot's python code embedded inside it XD
+Still figuring out how to isolate it to read/write to other processes tho...the version I have now has my bot's python code embedded inside it XD I will however, upload it once it's ready :smile: 
 
 # Wood -> Gold
 Only had time to work on this contest during the weekends this time round...almost didn't make it to legend >.< 
@@ -38,7 +38,7 @@ The approach my bot took to tracking enemies was simply to overlay possible move
 
 <img src="https://forum.codingame.com/uploads/default/original/3X/7/9/79301e7ebd57289cfc75baaf3c8f5d30b23b86d8.PNG" width="519" height="263">
 
-So in the above image, enemy was at (3, 6) then moved to (2, 7) and build at (1, 7). Pardon the turtle resting in the corner...she's tired from drawing all those squares...
+So in the above image, enemy was at (3, 6) then moved to (2, 7) and build at (1, 7). Pardon the turtle resting in the corner, she's tired from drawing all those squares...
 
 - **Green** are the cells the enemy needs to be to build at (1, 7).
 - **Red** are possible positions the enemy could've moved to from possible locations tracked the previous turn.
