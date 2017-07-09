@@ -61,12 +61,12 @@ In this example, **Red** is where my enemy is, **Green** is where my unit is. Ba
 
 *Contested* cells are cells that take the same number of moves to get to by either player. Even though I can reach these cells first (you always make the first move), I scored them lower than cells in *self_control* since I could be pushed from these cells by the adjacent enemy.
 
-To make my bot more aggressive, I gave a bigger penalty to enemy controlled cells, so it will try to cordon off the enemy and trap them. With this addition into my scoring function, my bot finally made the jump from Gold into Legend :slight_smile: 
+To make my bot more aggressive, I gave a bigger penalty to enemy controlled cells, so it will try to cordon off the enemy and trap them. With this addition into my scoring function, my bot finally made the jump from Gold into Legend :smile: 
 
 # Thoughts
 
 First off, congratulations to the top 3!!! The score difference in this contest is drastic...even though minimax was the way to go, seems like they nailed the implementation details and scoring functions just right :smiley:
 
-Thanks to CodinGame team for another great contest! This contest was more to the likes of Code4Life, maybe intentionally so based on positive feedback? :slight_smile:  Nonetheless, the boardgame-like nature of this contest is at least similar to that in c4l.
+Thanks to CodinGame team for another great contest! This contest was more to the likes of Code4Life, maybe intentionally so based on positive feedback? :smile:  Nonetheless, the boardgame-like nature of this contest is at least similar to that in c4l.
 
 Looking forward to when multiplayer comes out, would be good to properly implement minimax and enemy tracking on this :stuck_out_tongue: 
